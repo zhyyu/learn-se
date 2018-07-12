@@ -4,6 +4,16 @@
   <artifactId>learn-se</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+  <dependencies>
+  
+   <dependency>
+       <groupId>org.apache.commons</groupId>
+       <artifactId>commons-lang3</artifactId>
+       <version>3.7</version>
+   </dependency>
+    
+  </dependencies>
+  
   <build>
     <plugins>
       <plugin>

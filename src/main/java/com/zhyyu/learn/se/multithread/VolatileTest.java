@@ -14,10 +14,19 @@ public class VolatileTest {
 
 	public static volatile int num = 0;
 
+	// solution2: use synchronized
+	// public static synchronized void increaseNum() {
 	public static void increaseNum() {
 		num = num + 1;
 	}
+	
+	// solution 2: use AtomicInteger
+	/*public static volatile AtomicInteger num = new AtomicInteger(0);
 
+	public static void increaseNum() {
+		num.addAndGet(1);
+	}*/
+	
 	public static void main(String[] args) throws InterruptedException {
 		CountDownLatch doneSignal = new CountDownLatch(100);
 		Executor e = Executors.newCachedThreadPool();

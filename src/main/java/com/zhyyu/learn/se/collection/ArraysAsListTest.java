@@ -45,3 +45,20 @@ public class ArraysAsListTest {
 	}
 	
 }
+
+
+
+//java.lang.UnsupportedOperationException
+//at java.util.AbstractList.add(AbstractList.java:148)
+//at java.util.AbstractList.add(AbstractList.java:108)
+//at com.zhyyu.learn.se.collection.ArraysAsListTest.main(ArraysAsListTest.java:17)
+//java.lang.UnsupportedOperationException
+//at java.util.AbstractList.remove(AbstractList.java:161)
+//at java.util.AbstractList$Itr.remove(AbstractList.java:374)
+//at java.util.AbstractCollection.remove(AbstractCollection.java:293)
+//at com.zhyyu.learn.se.collection.ArraysAsListTest.main(ArraysAsListTest.java:24)
+//[1, 2, 3]
+//[1, 2, 3]
+//[1, 2, 3, 4]
+//[2, 3, 4]
+

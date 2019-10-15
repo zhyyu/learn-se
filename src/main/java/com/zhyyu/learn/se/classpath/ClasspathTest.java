@@ -8,6 +8,14 @@ import java.util.Arrays;
 
 /**
  * 使用java -classpath 参数指定依赖jar 包, 注意classpath 后指定路径需要添加引号(")!!
+ *
+ * <pre>
+ *     springboot test:
+ *	参考 https://www.liaoxuefeng.com/wiki/1252599548343744/1260466914339296
+ * 	java -cp .\learn-springboot-0.0.1-SNAPSHOT.jar org.springframework.boot.loader.JarLauncher 同样可以启动jar 包
+ *  java -jar .\learn-springboot-0.0.1-SNAPSHOT.jar
+ * </pre>
+ *
  * @author zhyyu
  *
  */

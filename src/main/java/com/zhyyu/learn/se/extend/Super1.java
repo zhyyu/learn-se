@@ -6,6 +6,12 @@ package com.zhyyu.learn.se.extend;
  */
 public class Super1 implements Interface1 {
 
+    private Object object = new Object();
+
+    public String obt2String() {
+        return object.toString();
+    }
+
     @Override
     public void method1() {
         System.out.println("super method1");
